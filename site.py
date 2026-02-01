@@ -9,7 +9,7 @@ def model_yukle():
     return pipeline("sentiment-analysis", model="distilbert-base-uncased-finetuned-sst-2-english")
 
 st.title("🤖 Gerçek AI Duygu Analizi")
-st.write("Bu uygulama arkada devasa bir sinir ağını (Neural Network) çalıştırıyor.")
+st.write("Bu uygulama arkada Tan'ın devasa taşaklarını çalıştırıyor.")
 
 user_input = st.text_input("İngilizce bir cümle girin:")
 
